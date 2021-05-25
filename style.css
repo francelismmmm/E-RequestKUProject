@@ -1,0 +1,230 @@
+body{
+    width: 100%;
+    height: 170vh;
+    background-image: linear-gradient(#288768,#68ab95,#bedbd1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+#headinput{
+  margin-left: 40%;
+  background-color: rgb(61, 85, 76);
+  width: 400px;
+  height: 80px;
+  position: relative;
+  top: 30px;
+  right: 130px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #34554a;
+  margin-top: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Prompt', sans-serif;
+  
+}
+#formbackground{
+  background-color:#ffffff;
+  width: 600px;
+  height: 1090px;
+  overflow: hidden;
+  margin-left: 35%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 3px;
+  border-style: solid;
+  box-shadow: 10px 10px 5px  rgba(35, 83, 61, 0.308);
+  border-color: #2ead8300;
+}
+#uploadfiles{
+  margin-left: 60px;
+  font-size: 16px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#headupload{
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#formradio{
+  margin-left: 50px;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+  
+}
+h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-left: 25%;
+    margin-top: 20px;
+    color: rgb(85, 87, 87);
+    font-family: 'Prompt', sans-serif;
+}
+
+#header{
+  align-items: center;
+}
+h1{
+    margin-bottom: 2px;
+    margin-top: 15px;
+    margin-left: 20%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 80px;
+    border-bottom: solid 5px;
+    border-color:#18513e;
+    color: #2c2c2c;
+    background-color: #d5d5d500;
+    letter-spacing: .05em;
+    text-shadow: 
+      4px 4px 0px #1d584c81, 
+      7px 7px 0px rgba(0, 0, 0, 0.137);
+    color: #ffffff;
+
+}
+
+input.btnSubmit{
+    margin-left: 0 ;
+}
+
+input{
+  margin-top: 10px;
+  
+  
+}
+
+
+
+
+textarea{
+  margin-top: 10px;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-weight: lighter;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+/*กล่องอินพุท*/
+  .form-control{
+    width: 300px;
+    background-color: rgba(169, 169, 169, 0);
+    border: rgba(0, 0, 0, 0);
+    border-bottom: #7eb7a4;
+    border-style: solid;
+    outline: none;
+    margin-top: 3px;
+  }
+  
+  
+  
+   
+ 
+ 
+
+  #submit{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 50%;
+    border-width: 2px;
+    
+    
+  
+  }
+  
+
+  #submit:hover{
+    font-size: 22px;
+    transition: 0.5s;
+    border-width: 2px;
+   
+  }
+
+  #clear{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-width: 2px;
+    
+  }
+
+  #clear:hover{
+    font-size: 22px;
+    transition: 0.5s;
+    border-width: 2px;
+  }
+
+  #delsign{
+  color: #000000;
+}
