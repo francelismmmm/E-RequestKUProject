@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+h1{
+    
+  color:#004c4c;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-family: 'Staatliches', cursive;
+  background-color: #f1f1f1;
+  margin-top: 0;
+ 
+  margin-left: 0%;
+  letter-spacing: 3px;
+  height: 100px;
+  width: 100%;}
+ 
+#hello{
+  margin-left: 50px ;
+  font-size: 30px;
+  color: #e2f0ea;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color:#008080;
+  height: 45px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  margin-bottom: 0px;
+  border-width: 5px;
+  border-color:#005555;
+  margin-left: 175px;
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 3px;
+} 
+    
+#KU{
+  width: 50px;
+  height: 70px;
+ text-align: center;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+body{
+  width: 100%;
+  height: 120vh;
+  /*background-image: linear-gradient(#31474f,#b28b76);*/
+  background: url('https://kps.ku.ac.th/v8/images/campus_photo/Tabebuia-rosea/cp-0003.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-repeat : no-repeat;
+  background-attachment: fixed;
+ 
+}
+#profiledata{
+  font-size: 26px;
+  justify-content: center;
+  display: flex;
+  color: #f1f1f1;
+  font-weight: lighter;
+  position: relative;
+  right: 250px;
+  width: 500px;
+ 
+}
+
+#profilebackground{
+  background-color: #457573;
+  width: 520px;
+  height: 300px;
+  background-attachment : scroll;
+  background-repeat : no-repeat;
+  margin-left: 50%;
+  position: relative;
+  top: 50px;
+  overflow: hidden;
+  transition: 1s;
+  margin-top: 60px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #9B8148;
+  border-width: 10px;
+}
+h3{
+    margin-left: 200px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+a.btn-logout{
+    margin-left: 200px;
+}
+
+p.textlogin{
+  font-size: 25px;
+  color: cadetblue;
+    align-items: center; 
+    text-align: center;
+}
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 175px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-weight: lighter;
+   
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: rgb(37, 141, 115);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  #date{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+  }
+
+ 
+
+  
